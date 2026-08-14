@@ -8,7 +8,11 @@ class Animal:
     def Meow(self):
         print("says Meow!")
 
+    def Run(self):
+        print("says Run!")
+
 
 ali = Animal("ali")
 ali.Bark()
 ali.Meow()
+ali.Run()
